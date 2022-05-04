@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 body{
-  background: #ff33cc;
-  background: -webkit-radial-gradient(center, #1fad83, #6935bd);
-  background: -moz-radial-gradient(center, #d670c0, #2c2831);
+  background: url("bg3.jpg") no-repeat center/cover;
+  /*background: -webkit-radial-gradient(center, #1fad83, #6935bd);*/
+  /*background: -moz-radial-gradient(center, #d670c0, #2c2831);
   background: radial-gradient(ellipse at center, #38a02e, #4107a7);
-}
+*/}
 
 .container{
   width: 1280px;
@@ -31,23 +31,52 @@ body{
   padding: 0 25px;
   color: gray;
   border-radius: 10px;
-  background-color: #ebddd7ef;
-  border: 10px solid #ea00ff;
-  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.9); 
+  background-color: #474a6def;
+  
+  /*border: 10px solid #36034b;*/
+  /*box-shadow: 0px 2px 6px 0px rgba(90, 110, 199, 0.9);*/ 
+}
+.inner-quotes-container:hover{
+    background-color: #5b6094ef;
 }
 
 .inner-quotes-container p{
   font-size: 1.5rem;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .inner-quotes-container h3{
   font-size: 2rem;
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: 'Dancing Script', cursive;
 }
 
 .quote-btn{padding-top: 25px;}
+
+.btn{
+    color: white;
+    background-color: #474a6def;
+    border: none;
+
+}
+.btn:hover{
+    background-color: #5b6094ef;
+    border: none;
+     
+}
+.btn:active{
+    transform: translateY(2px);
+    border: none;
+    background-color: #474a6def;
+
+}
+.btn:enabled{
+    background-color: #474a6def;
+    color: white;
+    border-color: none;
+   
+
+}
 
 @media(max-width:1280px){
   .container{width: 95%;}
