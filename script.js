@@ -34,7 +34,6 @@ document.querySelector("#generate").addEventListener("click", () => {
       "- Aristotle": '"There is only one way to avoid criticism: do nothing, say nothing, and be nothing"',
       "- Jesus": '"Ask and it will be given to you; search, and you will find; knock and the door will be opened for you."',
       "- Ralph Waldo Emerson": '"The only person you are destined to become is the person you decide to be."',
-      "- Henry David Thoreau": '"Go confidently in the direction of your dreams.  Live the life you have imagined."',
       "- Erma Bombeck": '"When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, I used everything you gave me."',
       "- Chaanakya": '"He who is overly attached to his family members, experiences fear and sorrow, for the root of all grief is attachment. Thus one should discard attachment to be happy."'
     };
