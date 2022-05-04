@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 body{
   background: url("bg3.jpg") no-repeat center/cover;
   /*background: -webkit-radial-gradient(center, #1fad83, #6935bd);*/
@@ -41,8 +41,9 @@ body{
 }
 
 .inner-quotes-container p{
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: rgb(255, 255, 255);
+  font-family: 'Source Code Pro', monospace;
 }
 
 .inner-quotes-container h3{
