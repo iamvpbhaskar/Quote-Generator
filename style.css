@@ -2,7 +2,7 @@
 
 body{
   background: #ff33cc;
-  background: -webkit-radial-gradient(center, #177577, #6935bd);
+  background: -webkit-radial-gradient(center, #1fad83, #6935bd);
   background: -moz-radial-gradient(center, #d670c0, #2c2831);
   background: radial-gradient(ellipse at center, #38a02e, #4107a7);
 }
