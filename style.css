@@ -3,8 +3,8 @@
 body{
   background: #ff33cc;
   background: -webkit-radial-gradient(center, #177577, #6935bd);
-  background: -moz-radial-gradient(center, #20b3b6, #2c2831);
-  background: radial-gradient(ellipse at center, #479ed8, #4107a7);
+  background: -moz-radial-gradient(center, #d670c0, #2c2831);
+  background: radial-gradient(ellipse at center, #38a02e, #4107a7);
 }
 
 .container{
@@ -32,7 +32,7 @@ body{
   color: gray;
   border-radius: 10px;
   background-color: #F4EDEA;
-  border: 10px solid #a56e09;
+  border: 10px solid #f3a616;
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.9); 
 }
 
